@@ -5,8 +5,6 @@ body{
     justify-content: center;
     gap: 10px;
     animation: gap 5s infinite;
-    background-image: url();
-
 }
 
 .four{ font-size: 230px;
@@ -78,20 +76,17 @@ body{
   @keyframes gap {
 
     40% {
-      background-image: url(./images/riss1.png);
       background-size: 33%;
       background-position: 45% 318px;
       background-repeat: no-repeat;
       gap: 10px;
     }
-    45%{
-      background-image: url(./images/riss2.png);
+    45%{  
       background-size: 33%;
       background-position: 45% 318px;
       background-repeat: no-repeat;
     }
     50%{
-      background-image: url(./images/riss3.png);
       background-size: 33%;
       background-position: 45% 318px;
       background-repeat: no-repeat;
@@ -99,7 +94,6 @@ body{
     55%{
       gap: 100px;
       background-position: 45% 318px;
-      background-image: url(./images/riss3.png);
       background-size: 33%;
       background-repeat: no-repeat;
 
@@ -108,10 +102,7 @@ body{
     100%{
       gap: 10px;
       background-position: 45% 318px;
-      background-image: url(./images/riss3.png);
       background-size: 33%;
       background-repeat: no-repeat;
-
-
     }
   }
